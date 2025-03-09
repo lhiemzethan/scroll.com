@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">Login</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <link rel="stylesheet" href="css/style-login.css">
+    <link rel="stylesheet" href="css/style-background.css">
+    <link rel="stylesheet" href="css/style-left-sidebar.css">
+    <link rel="icon" href="img/favicon.png" />
+
+</head>
+<body>
+    <!-- wrapper1 -->
+    <div class="wrapper1">
+            <!-- form login -->
+            <div class="form-box-login">
+                <h2>Login</h2>
+                <form action="login.php" method="POST">
+                        <div class="form-login">
+                            <input type="text" placeholder="Username" id="username" name="username" required>
+                        </div>
+                        <div class="form-login">
+                            <input type="password" placeholder="Password" id="password" name="password" required>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox" name="remember">Remember Me</label>
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                    <button type="submit" name="login" class="btn-login">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="reg.html" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+    </div>
+    <!-- error-message -->
+    <!-- Kontainer yang ingin muncul -->
+    <div class="kontainer-muncul">
+        <div id="error-message" style="display: none;"></div>
+        <button type="submit" class="popup-error">OK</button>
+    </div>
+    <!-- memanggil javascript  -->
+        <!-- JavaScript login message -->
+        <script src="script.js"></script>
+</body>
+</html>

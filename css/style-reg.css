@@ -1,0 +1,128 @@
+/* style-register.css*/
+.wrapper2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.wrapper2 .form-box-register h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    pointer-events: none;
+}
+.form-register {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-register input {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(137, 174, 206);
+    border-radius: 17px;
+    border: 3px solid rgba(15, 6, 6, 0.788);
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-indent: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.agree {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.agree label input {
+    accent-color: white;
+    margin-left: 3px;
+}
+.btn-register {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: midnightblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-register {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+.login-register p a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login-register p a:hover {
+    text-decoration: underline;
+}
+.kontainer-muncul {
+    position: absolute;
+    left: 21%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: scale(1);
+    transition: height .2s ease;
+    overflow: hidden;
+
+}
+
+.kontainer-muncul.show {
+    transform: scale(1);
+}
+
+.popup-error {
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 15px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: midnightblue;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,8 +1,8 @@
-<?php
-    session_start();
+// <?php
+//     session_start();
 
-    // Proses logout
-    if (isset($_POST['login'])) {
-        header('location: login.html');
-    }
-?>
+//     // Proses logout
+//     if (isset($_POST['login'])) {
+//         header('location: login.html');
+//     }
+// ?>
